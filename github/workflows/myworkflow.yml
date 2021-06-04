@@ -51,7 +51,7 @@ jobs:
       uses: ./.github/vijejain/cicd-actions-bugbash
       if: ${{ success() }}
       with:          
-        s3_bucket: <bucket which has a prefix of "codeguru-reviewer-*">
+        s3_bucket: codeguru-reviewer-aritras-actions-bucket
         
     # Add this step to assist Bugbash debugging
     - name: 'Upload Artifact'

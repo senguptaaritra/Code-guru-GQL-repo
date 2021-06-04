@@ -9,7 +9,7 @@ def non_conformant_1(c):
 
 def non_conformant_2(command):
     # expect finding: dangerous eval
-    eval(command)
+    eval(command) #
 
 def non_conformant_3():
     c = input()

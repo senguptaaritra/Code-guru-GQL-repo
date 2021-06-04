@@ -1,7 +1,7 @@
 import sys
 import ast
 
-# test security again
+# test security 
 def non_conformant_1(c):
     command = 'os.system("%s")' % c
     # expect finding: dangerous eval
